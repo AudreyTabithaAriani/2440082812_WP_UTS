@@ -38,8 +38,6 @@ class transactionController extends Controller
 
     public function add(Request $request, $id)
     {
-        // Store the $coffee_name value in the transaction database here
-        // For example:
 
         $transaction = new transactionModel;
         $transaction->coffee_name = $request->coffee_name;

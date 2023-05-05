@@ -15,7 +15,7 @@ class transactionModel extends Model
 
     public function userModel()
     {
-        return $this->belongsTo(userModel::class, 'user_id');
+        return $this->belongsTo(userModel::class, 'id');
     }
 
     public function coffeeModel()
